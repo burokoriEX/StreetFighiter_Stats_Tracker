@@ -1,17 +1,14 @@
-# Compiled class file
+# ============================
+# Java 基本
+# ============================
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
+*.mtj.tmp/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
+# ============================
+# パッケージファイル（jar は使うので除外しない）
+# ============================
 *.war
 *.nar
 *.ear
@@ -19,6 +16,28 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# ============================
+# JVM クラッシュログ
+# ============================
 hs_err_pid*
 replay_pid*
+
+# ============================
+# あなたのスト6データファイル（公開しない）
+# ============================
+sf6_history.txt
+sf6_characters.txt
+
+# ============================
+# Eclipse / Java プロジェクト用
+# ============================
+bin/
+.settings/
+.classpath
+.project
+
+# ============================
+# OSごとの不要ファイル
+# ============================
+.DS_Store
+Thumbs.db
